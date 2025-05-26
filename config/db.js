@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
 
-const connectDB=()=>{mongoose.connect('mongodb+srv://shafeeq:sneak@cluster0.sq01t.mongodb.net/muslimDirectory').then(()=>{
-
+const connectDB=()=>{mongoose.connect(process.env.MONGODURL).then(()=>{
+console.log("Mongodb connected ✅")
 
 }).catch((er)=>{
         console.log(er)
