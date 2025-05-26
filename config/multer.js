@@ -2,7 +2,7 @@
 
 import multer from "multer";
 import path from "path";
-import { currentAppPath } from "../server.js";
+import { currentAppPath } from "../server.mjs";
 
 // 1.configure Storage
 const storage = multer.diskStorage({
