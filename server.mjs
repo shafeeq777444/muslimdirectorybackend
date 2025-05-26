@@ -1,6 +1,6 @@
 import express from "express";
 import { config } from "dotenv";
-import ErrorHandler from "./middlewares/ErrorHandler.js";
+// import ErrorHandler from "./middlewares/ErrorHandler.js";
 import allRoutes from "./routes/allRoutes.js";
 import connectDB from "./config/db.js";
 import cors from "cors";
