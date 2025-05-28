@@ -4,7 +4,7 @@
   "main": "server.mjs",
   "type": "module",
   "scripts": {
-     "start": "node server.mjs",
+    "start": "node server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +16,8 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "mongoose": "^8.15.0",
-    "multer": "^2.0.0"
+    "multer": "^2.0.0",
+    "pdfkit": "^0.17.1",
+    "pdfkit-table": "^0.1.99"
   }
 }

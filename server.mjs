@@ -33,6 +33,8 @@ app.use(express.json());
 
 // routes
 app.use("/api", allRoutes);
+app.get('/api/test', (req, res) => res.send("Backend is working!"));
+
 
 // static data
 app.use('/uploads',express.static(path.join(currentAppPath,'uploads')))
